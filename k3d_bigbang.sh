@@ -270,5 +270,5 @@ EOF
     echo "========================== CONGRATULATION BIGBANG IS NOW DEPLOYED ====================================="
     echo "================================ NOW LET CHECK THE RESOURCES  ========================================="
     echo "Please get yourself a cup of cafe while we deploying the resources, this can take more than 2 minutes"
-    sleep 60
+    sleep 120
     kubectl get gitrepositories,kustomizations,hr,po -A
